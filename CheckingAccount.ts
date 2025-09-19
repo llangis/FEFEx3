@@ -16,7 +16,7 @@ constructor(initialBalance:number) {
 
 
 /**
- * Withdrawal funds from savings. Cannot overdraw the account
+ * Every 5th withdrawal we incur a transaction fee. We cannot overdraw the account
  * @param amount the amount of the withdrawal
  */
     withdrawalAmount(amount: number): void {
